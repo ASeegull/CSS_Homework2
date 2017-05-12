@@ -1,13 +1,181 @@
-body {}
-#content {}
-h1 {}
-h2 {}
-p {
-
+body {
+    background-color: #b8b8b8;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "Arial", sans-serif;
 }
+
+body, h1, h2 {
+    color: #333;
+    font-weight: normal;
+}
+
+#content {
+    width: 800px;
+    background-color: #fff;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 36px;
+    line-height: 46px;
+    font-style: italic;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
 .fixed {
-
+position: fixed;
+    top: 20px;
+    right: 0;
+    color: #fff;
+    background-color: #666;
+    width: 200px;
+    padding-left: 20px;
 }
+
+span.definition {
+    font-weight: bold;
+}
+
+/* Puzzle-placeholder */
 #puzzle {
-
+    position: relative;
+    width: 660px;
+    height: 495px;
+    border: solid 5px #333;
+    margin: 0 auto;
 }
+
+/* Puzzle solving */
+#puzzle_part1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#puzzle_part2 {
+    position: absolute;
+    top: 0;
+    left: 129px;
+}
+
+#puzzle_part3 {
+    position: absolute;
+    top: 0;
+    left: 219px;
+}
+
+#puzzle_part4 {
+    position: absolute;
+    top: 0;
+    right: 136px;
+}
+
+#puzzle_part5 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#puzzle_part6 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+#puzzle_part7 {
+    position: absolute;
+    top: 117px;
+    left: 94px;
+}
+
+#puzzle_part8 {
+    position: absolute;
+    top: 87px;
+    left: 254px;
+}
+
+#puzzle_part9 {
+    position: absolute;
+    top: 130px;
+    right: 98px;
+}
+
+#puzzle_part10 {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+#puzzle_part11 {
+    position: absolute;
+    bottom: 126px;
+    left: 0;
+}
+
+#puzzle_part12 {
+    position: absolute;
+    bottom: 86px;
+    left: 130px;
+}
+
+#puzzle_part13 {
+    position: absolute;
+    bottom: 118px;
+    left: 221px;
+}
+
+#puzzle_part14 {
+    position: absolute;
+    bottom: 77px;
+    right: 130px;
+}
+
+#puzzle_part15 {
+    position: absolute;
+    bottom: 145px;
+    right: -67px;
+}
+
+#puzzle_part16 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#puzzle_part17 {
+    position: absolute;
+    bottom: 0;
+    left: 94px;
+}
+
+#puzzle_part18 {
+    position: absolute;
+    bottom: 0;
+    left: 261px;
+}
+
+#puzzle_part19 {
+    position: absolute;
+    bottom: -49px;
+    right: 51px;
+}
+
+#puzzle_part20 {
+    position: absolute;
+    bottom: -67px;
+    right: -85px;
+}
+
+
+
+
+
